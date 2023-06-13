@@ -14,6 +14,7 @@ const { execute }   = require('@goodcity/release-notes');
  * @property {string} [base]
  * @property {string} [emailTo]
  * @property {string} [emailSubject]
+ * @property {string} [appName]
  * @property {string} [jiraCode]
  * @property {string} [jiraHost]
  * @property {string} [jiraUsername]
@@ -43,6 +44,7 @@ const options = {
   emailTo: readString('email-to'),
   emailSubject: readString('email-subject'),
   sendgridApiKey: readString('sendgrid-api-key'),
+  appName: readString('app-name')
 };
 
 async function runAction() {
