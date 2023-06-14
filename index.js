@@ -44,7 +44,7 @@ const options = {
   emailTo: readString('email-to'),
   emailSubject: readString('email-subject'),
   sendgridApiKey: readString('sendgrid-api-key'),
-  appName: readString('app-name')
+  // appName: readString('app-name')
 };
 
 async function runAction() {
