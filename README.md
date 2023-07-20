@@ -2,8 +2,8 @@
 
 > Original Creator
 > 
-> https://github.com/patrixr/jira-release-notes
-> https://github.com/marketplace/actions/jira-release-notes
+> - https://github.com/patrixr/jira-release-notes
+> - https://github.com/marketplace/actions/jira-release-notes
 
 This action generates release notes based on JIRA ticket numbers found in commits, and creates a PDF file. It can also email you the notes.
 
