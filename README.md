@@ -1,5 +1,7 @@
 # Jira Release Notes
 
+> Original Repo - https://github.com/patrixr/jira-release-notes
+
 This action generates release notes based on JIRA ticket numbers found in commits, and creates a PDF file. It can also email you the notes.
 
 Built as part of the [#ActionsHackathon](https://dev.to/devteam/announcing-the-github-actions-hackathon-on-dev-3ljn)
